@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 5, "time_frame": "2010-01-04 - 2020-11-02", "ordered_list_data_sets": ["ATVI", "ADBE", "GOOG", "AMZN", "AMGN"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -1676.8972336393797, "BIC": -1550.725717819334}}

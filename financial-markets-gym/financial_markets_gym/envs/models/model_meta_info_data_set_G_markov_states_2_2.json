@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 2, "time_frame": "2011-01-03 - 2021-12-01", "ordered_list_data_sets": ["MSFT", "BIDU"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -513.4936720105177, "BIC": -474.7040872679984}}

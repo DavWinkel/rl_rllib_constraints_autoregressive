@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 16, "time_frame": "2011-01-03 - 2021-12-01", "ordered_list_data_sets": ["MSFT", "BIDU", "ADBE", "PCAR", "NVDA", "SBUX", "INTU", "ADP", "AMZN", "EBAY", "AMGN", "QCOM", "ORLY", "INTC", "AAPL", "CMCSA"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -4927.716417479565, "BIC": -4074.3455531441405}}

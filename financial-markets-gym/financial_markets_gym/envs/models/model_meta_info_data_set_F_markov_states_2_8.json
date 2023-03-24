@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 8, "time_frame": "2010-01-04 - 2020-11-02", "ordered_list_data_sets": ["QCOM", "COST", "INTC", "BIDU", "CHKP", "ATVI", "CERN", "CTSH"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -2403.593911368304, "BIC": -2148.6909259174627}}

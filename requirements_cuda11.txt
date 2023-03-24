@@ -1,0 +1,16 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.13.0+cu116
+ray==2.0.0
+ray[rllib]==2.0.0
+grpcio==1.43.0
+pandas
+dm_tree
+Box2D
+gym==0.23.0
+wandb
+matplotlib
+ruamel.yaml
+git+https://github.com/DavidWalz/polytope-sampling.git
+pypoman
+scipy
+mhar

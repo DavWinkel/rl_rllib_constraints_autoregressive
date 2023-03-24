@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 8, "time_frame": "2010-01-04 - 2020-11-02", "ordered_list_data_sets": ["ADP", "XLNX", "ATVI", "INTC", "NVDA", "PCAR", "GOOG", "CMCSA"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -2641.2086746854247, "BIC": -2377.3955052435113}}

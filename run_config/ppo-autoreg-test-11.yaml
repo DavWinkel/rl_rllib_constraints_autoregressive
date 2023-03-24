@@ -1,0 +1,34 @@
+cartpole-ppo:
+    env: CustomCorrelatedActionsDirichletEnv
+    run: PPO
+    stop:
+        episode_reward_mean: 0
+        timesteps_total: 1000000000
+    local_dir: ./.logging
+    config:
+        # Works for both torch and tf.
+        framework: torch
+        seed: 1010
+        #num_sgd_iter: 5
+        #vf_loss_coeff: 0.0001
+        lr:
+            grid_search:
+                - 1e-04
+                - 5e-05
+                - 1e-05
+                - 5e-06
+        model:
+            fcnet_hiddens: [256, 256]
+            vf_share_layers: true
+            custom_action_dist: TorchAutoregressiveDirichletDistributionV2
+            custom_model: TorchCustomAutoregressiveModel
+            custom_model_config:
+                fcnet_hiddens_autoreg_branches: [ 64,32 ]
+            #use_lstm: True
+            #lstm_use_prev_action: True
+            #lstm_use_prev_reward: True
+            #lstm_cell_size: 256
+    verbose: 1
+    callbacks: [WandbLoggerCallback]
+
+        

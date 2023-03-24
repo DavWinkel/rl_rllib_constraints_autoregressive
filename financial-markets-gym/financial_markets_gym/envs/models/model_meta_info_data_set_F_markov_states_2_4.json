@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 4, "time_frame": "2010-01-04 - 2020-11-02", "ordered_list_data_sets": ["QCOM", "COST", "VRTX", "INTC"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -1089.7168638605924, "BIC": -1001.0549558776911}}

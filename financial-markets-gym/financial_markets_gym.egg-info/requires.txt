@@ -1,0 +1,4 @@
+gym
+numpy
+scikit-learn
+hmmlearn

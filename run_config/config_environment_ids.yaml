@@ -1,0 +1,854 @@
+environment_config:
+    environment_config_id_1:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.4, 0.3, 0.3]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_2:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.64, 0.23, 0.13]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_3:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.4, 0.22, 0.38]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_4:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.24, 0.02, 0.74]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0]
+            1_action_mask: [0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_5:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.85, 0.14, 0.01]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+            1_action_mask: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_6:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.74, 0.17, 0.09]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0]
+            1_action_mask: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_7:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.37, 0.15, 0.48]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1]
+            1_action_mask: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_8:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.59, 0.41]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_9:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.52, 0.48]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_10:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.7, 0.3]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_11:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.3, 0.7]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_12:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.15, 1.15]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_13:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.68, 0.32]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_14:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.8, 1.8]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_15:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.7, 1.7]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_16:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.67, 0.33]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_17:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.1, 1.1]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_18:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.94, 0.06]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_19:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.27, 0.73]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_20:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.79, 1.79]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0]
+            1_action_mask: [1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]
+    environment_config_id_21:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.66, 1.6600000000000001]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+    environment_config_id_22:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [-0.77, 1.77]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0]
+            1_action_mask: [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1]
+    environment_config_id_23:
+        data_set_name: model_parameter_data_set_G_markov_states_2_4
+        head_factor_list: [0.27, 0.73]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 1]
+            1_action_mask: [1, 1, 1, 1, 1]
+    environment_config_id_24:
+        data_set_name: model_parameter_data_set_G_markov_states_2_4
+        head_factor_list: [1.0]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1]
+    environment_config_id_25:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1.0]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_26:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.4, 0.6]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_27:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1.3, -0.3]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]
+    environment_config_id_28:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.2, 0.5, 0.3]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1]
+            1_action_mask: [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_29:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1.0, 1.0, 0.4, 0.8]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            1_action_mask: [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            3_action_mask: [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+        conditional_minkowski_encoding: true
+    environment_config_id_30:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1.0, 1.0, 0.4, 0.8]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            1_action_mask: [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            3_action_mask: [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+    environment_config_id_31:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1.0, 1.0, 0.4, 0.8]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+            1_action_mask: [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            3_action_mask: [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.2
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_32:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1.0, 1.0, 0.4, 0.8]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            1_action_mask: [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            3_action_mask: [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+        uniform_factor_dict:
+            0_uniform_factor:
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_33:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.66, 0.31, 0.03]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0]
+            1_action_mask: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+    environment_config_id_34:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.8, 0.03, 0.17]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1]
+            2_action_mask: [0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+    environment_config_id_35:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.31, 0.41, 0.28]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+            2_action_mask: [0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0]
+    environment_config_id_36:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.85, 0.04, 0.11]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1]
+            1_action_mask: [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_37:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.88, 0.08, 0.04]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1]
+            1_action_mask: [0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_38:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.31, 0.63, 0.06]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+            1_action_mask: [1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_39:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.01, 0.22, 0.77]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_40:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.54, 0.13, 0.33]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_41:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.2, 0.1, 0.7]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+            1_action_mask: [1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_42:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.39, 0.41, 0.2]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+            1_action_mask: [1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_43:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.96, 0.03, 0.01]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0]
+            1_action_mask: [0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_44:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.77, 0.13, 0.1]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1]
+            1_action_mask: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_45:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.22, 0.72, 0.06]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1]
+            1_action_mask: [1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]
+    environment_config_id_46:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.04, 0.95, 0.01]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0]
+            1_action_mask: [0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1]
+            2_action_mask: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+    environment_config_id_47:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.02, 0.85, 0.13]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]
+            2_action_mask: [1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1]
+    environment_config_id_48:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.62, 0.51]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0]
+            2_action_mask: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0]
+            3_action_mask: [0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.38
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_49:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.07, 0.94]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1]
+            1_action_mask: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0]
+            2_action_mask: [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0]
+            3_action_mask: [1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.06
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_50:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.91, 0.54]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0]
+            1_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+            3_action_mask: [0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.09
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_51:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.94, 0.03, 0.03]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1]
+            1_action_mask: [0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_52:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.66, 0.22, 0.12]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_53:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.04, 0.85, 0.11]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0]
+            1_action_mask: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_54:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.55, 0.06, 0.39]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0]
+            1_action_mask: [1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_55:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.12, 0.1, 0.78]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1]
+            1_action_mask: [1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_56:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.87, 0.1, 0.03]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_57:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.35, 0.3, 0.35]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1]
+            1_action_mask: [1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_58:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.35, 0.53, 0.12]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_59:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.03, 0.45, 0.52]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0]
+            1_action_mask: [0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_60:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.04, 0.89, 0.07]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+            2_action_mask: [1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1]
+    environment_config_id_61:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.34, 0.46, 0.2]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1]
+            1_action_mask: [1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1]
+            2_action_mask: [0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1]
+    environment_config_id_62:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.31, 0.31, 0.38]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            2_action_mask: [0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+    environment_config_id_63:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.73, 0.56]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1]
+            1_action_mask: [0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0]
+            2_action_mask: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0]
+            3_action_mask: [0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.27
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_64:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.95, 0.2]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+            1_action_mask: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            3_action_mask: [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.05
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_65:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.66, 0.76]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0]
+            1_action_mask: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0]
+            3_action_mask: [0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.24
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_66:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.38, 0.21, 0.41]
+        action_mask_dict:
+            0_action_mask: [0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_67:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.01, 0.49, 0.5]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+            1_action_mask: [0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_68:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.73, 0.12, 0.15]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0]
+            1_action_mask: [0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_69:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.27, 0.6, 0.13]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+            1_action_mask: [1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_70:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.28, 0.09, 0.63]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_71:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.26, 0.53, 0.21]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+            1_action_mask: [1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_72:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.15, 0.52, 0.33]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+            1_action_mask: [1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_73:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.28, 0.61, 0.11]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1]
+            1_action_mask: [1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_74:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.76, 0.22, 0.02]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0]
+            1_action_mask: [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_75:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.06, 0.36, 0.58]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1]
+            2_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    environment_config_id_76:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.32, 0.36, 0.32]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0]
+            2_action_mask: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+    environment_config_id_77:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.42, 0.2, 0.38]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1]
+            1_action_mask: [1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0]
+            2_action_mask: [1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0]
+    environment_config_id_78:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.69, 0.94]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+            1_action_mask: [0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+            3_action_mask: [1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.06
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_79:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.25, 0.78]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+            3_action_mask: [0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.22
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_80:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.23, 0.78]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+            1_action_mask: [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1]
+            2_action_mask: [1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1]
+            3_action_mask: [1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.22
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_81:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.85, 0.1, 0.05]
+        action_mask_dict:
+            0_action_mask: [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1]
+            1_action_mask: [1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_82:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.29, 0.35, 0.36]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+            1_action_mask: [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_83:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.53, 0.21, 0.26]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0]
+            1_action_mask: [1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_84:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.81, 0.12, 0.07]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0]
+            1_action_mask: [1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_85:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.02, 0.05, 0.93]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+            1_action_mask: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_86:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.7, 0.07, 0.23]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_87:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.76, 0.06, 0.18]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1]
+            1_action_mask: [1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_88:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.81, 0.11, 0.08]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_89:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.4, 0.5, 0.1]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+            1_action_mask: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_90:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.16, 0.58, 0.26]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0]
+            1_action_mask: [0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1]
+            2_action_mask: [0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+    environment_config_id_91:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.32, 0.61, 0.07]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+    environment_config_id_92:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.35, 0.5, 0.15]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0]
+            1_action_mask: [1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1]
+            2_action_mask: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+    environment_config_id_93:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.4, 0.79]
+        action_mask_dict:
+            0_action_mask: [0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+            2_action_mask: [0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0]
+            3_action_mask: [1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.21
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_94:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.45, 0.93]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+            2_action_mask: [1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1]
+            3_action_mask: [0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.07
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_95:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.24, 0.81]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+            1_action_mask: [1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]
+            3_action_mask: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.19
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_96:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.94, 0.05, 0.01]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1]
+            1_action_mask: [0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_97:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.31, 0.33, 0.36]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0]
+            1_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_98:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.18, 0.14, 0.68]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+            1_action_mask: [1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_99:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.46, 0.27, 0.27]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0]
+            1_action_mask: [1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_100:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.32, 0.57, 0.11]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0]
+            1_action_mask: [1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_101:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.87, 0.09, 0.04]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+            1_action_mask: [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_102:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.43, 0.16, 0.41]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1]
+            1_action_mask: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_103:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.94, 0.01, 0.05]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0]
+            1_action_mask: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_104:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.19, 0.7, 0.11]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1]
+            1_action_mask: [1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0]
+            2_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    environment_config_id_105:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.72, 0.24, 0.04]
+        action_mask_dict:
+            0_action_mask: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+            1_action_mask: [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+            2_action_mask: [1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0]
+    environment_config_id_106:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.4, 0.41, 0.19]
+        action_mask_dict:
+            0_action_mask: [1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0]
+            1_action_mask: [0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+    environment_config_id_107:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [0.05, 0.91, 0.04]
+        action_mask_dict:
+            0_action_mask: [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0]
+            1_action_mask: [0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]
+    environment_config_id_108:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 1.0, 0.87]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+            1_action_mask: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            2_action_mask: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+            3_action_mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1]
+        uniform_factor_dict:
+            0_uniform_factor: 0.0
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_109:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.2, 0.98]
+        action_mask_dict:
+            0_action_mask: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+            1_action_mask: [1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+            2_action_mask: [1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0]
+            3_action_mask: [1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.02
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:
+    environment_config_id_110:
+        data_set_name: model_parameter_data_set_G_markov_states_2_12
+        head_factor_list: [1, 1, 0.56, 0.55]
+        action_mask_dict:
+            0_action_mask: [1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+            1_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+            2_action_mask: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+            3_action_mask: [0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0]
+        uniform_factor_dict:
+            0_uniform_factor: 0.44
+            1_uniform_factor:
+            2_uniform_factor:
+            3_uniform_factor:

@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 8, "time_frame": "2010-01-04 - 2020-11-02", "ordered_list_data_sets": ["ADP", "BIIB", "VRTX", "INTU", "COST", "CTSH", "EBAY", "MSFT"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 1, "AIC": -2717.36559958329, "BIC": -2588.3265493127888}}

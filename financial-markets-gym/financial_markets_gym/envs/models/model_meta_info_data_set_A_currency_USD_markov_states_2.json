@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 3, "time_frame": "2006-01-31 - 2021-07-31", "ordered_list_data_sets": ["iShares US Real Estate ETF", "MSCI U.S. GROSS INDEX", "U.S. ALL Lives Government BOND Total \\ TTL"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -2498.508074118677, "BIC": -2427.541647296987}}

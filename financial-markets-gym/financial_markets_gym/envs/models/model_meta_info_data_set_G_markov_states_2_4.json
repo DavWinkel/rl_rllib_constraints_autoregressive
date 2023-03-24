@@ -1,0 +1,1 @@
+{"data_info": {"amount_data_sets": 4, "time_frame": "2011-01-03 - 2021-12-01", "ordered_list_data_sets": ["MSFT", "BIDU", "ADBE", "PCAR"], "investor_base_currency": "USD"}, "model_info": {"amount_hidden_markov_states": 2, "AIC": -1162.6996945338528, "BIC": -1074.0377865509515}}

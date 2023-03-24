@@ -1,0 +1,62 @@
+cartpole-ppo:
+    env: financial-markets-env-short-selling-v0
+    run: P3OPPO
+    stop:
+        timesteps_total: 100000000
+    local_dir: ./.logging
+    config:
+        # Works for both torch and tf.
+        framework: torch
+        seed: 1010
+        num_gpus: 0
+        num_workers: 1
+        num_cpus_per_worker: 1
+        num_envs_per_worker: 1
+        sgd_minibatch_size: 128
+        #num_sgd_iter: 5
+        #vf_loss_coeff: 0.0001
+        env_config:
+            include_cash_asset: true
+            include_unobservable_market_state_information_for_evaluation: false
+            env_config_id: 30
+            force_dict_obs_space: true
+            force_single_simplex: true
+            constraints_conditional_minkowski_encoding: true #this only allows for the penalty calculation to be done differently
+            risk_penalty_factor: 0.2
+            risk_mode: risk_per_time_step #risk_per_time_step
+            include_risk_penalty_in_state: false
+        model:
+            fcnet_hiddens: [512, 256, 128]
+            vf_share_layers: true
+            custom_model: CostValueFunctionCustomModel
+            custom_model_config:
+                cost_vf_share_layers: true
+                cost_vf_use_gae: true
+                cost_vf_use_critic: true
+                init_kappa:
+                    grid_search:
+                        - 20.0
+                        - 50.0
+                config_moment_model:
+                    moment_model_lr: 0.001
+                    moment_model_include_action: false
+                    moment_model_input_type: "only_prev_returns"
+                    # only_prev_returns, obs, obs_and_action
+                    moment_model_output_aggregated_portfolio: false
+                    use_moment_attention: true
+                    attention_num_heads: 8
+                    attention_d_model: 512
+                    attention_num_encoder_layer: 2
+                    attention_num_decoder_layer: 2
+                    attention_modelled_hidden_states: 2
+        lr:
+            grid_search:
+            - 1e-05
+            - 5e-06
+        batch_mode: complete_episodes
+        evaluation_num_workers: 1
+        evaluation_interval: 5
+        custom_eval_function: custom_eval_function_lambda_penalty
+        callbacks: EvaluationLoggerCallback
+    verbose: 1
+    callbacks: [WandbLoggerCallback]

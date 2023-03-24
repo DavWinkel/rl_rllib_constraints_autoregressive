@@ -1,0 +1,8 @@
+.idea/
+venv/
+__pycache__/
+run_generator/
+run_wb_evaluation/
+wand_api.txt
+.logging/
+

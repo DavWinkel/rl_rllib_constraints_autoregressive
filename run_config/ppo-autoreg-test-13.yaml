@@ -1,0 +1,34 @@
+cartpole-ppo:
+    env: financial-markets-env-short-selling-v0
+    run: PPO
+    stop:
+        episode_reward_mean: 0
+        timesteps_total: 1000000000
+    local_dir: ./.logging
+    config:
+        # Works for both torch and tf.
+        framework: torch
+        seed: 1010
+        #num_sgd_iter: 5
+        #vf_loss_coeff: 0.0001
+        lr: 5e-06
+        env_config:
+            include_cash_asset: true
+            include_unobservable_market_state_information_for_evaluation: false
+            env_config_id: 24
+            force_dict_obs_space: true
+        model:
+            fcnet_hiddens: [512, 256, 128]
+            vf_share_layers: true
+            custom_model: TorchCustomAutoregressiveModelTypeOne
+            custom_model_config:
+                fcnet_hiddens_autoreg_branches: [64,32]
+            #custom_action_dist: My_betadist #binary_autoreg_dist
+            custom_action_dist: TorchAutoregressiveDirichletDistributionTypeOne
+            #use_lstm: True
+            #lstm_use_prev_action: True
+            #lstm_use_prev_reward: True
+            #lstm_cell_size: 256
+    verbose: 1
+
+        

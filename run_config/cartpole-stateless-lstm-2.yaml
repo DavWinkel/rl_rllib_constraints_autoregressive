@@ -1,0 +1,22 @@
+cartpole-ppo:
+    env: stateless_cartpole
+    run: RiskShortPPO
+    stop:
+        episode_reward_mean: 400
+        timesteps_total: 1000000
+    local_dir: ./.logging
+    config:
+        # Works for both torch and tf.
+        framework: torch
+        num_sgd_iter: 5
+        vf_loss_coeff: 0.0001            
+        model:
+            fcnet_hiddens: [256, 256]
+            vf_share_layers: true
+            use_lstm: True
+            lstm_use_prev_action: True
+            lstm_use_prev_reward: True
+            lstm_cell_size: 256
+    verbose: 2
+
+        
