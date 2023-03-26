@@ -1,6 +1,6 @@
 cartpole-ppo:
     env: financial-markets-env-short-selling-v0
-    run: P3OPPO
+    run: RiskAutoregressivePPO
     stop:
         timesteps_total: 8000000
     local_dir: ./.logging
@@ -8,44 +8,32 @@ cartpole-ppo:
         checkpoint_at_end: true
         checkpoint_frequency: 500
     config:
-        # Works for both torch and tf.
         framework: torch
         seed: 1010
-        num_gpus: 0
-        num_workers: 1
-        num_cpus_per_worker: 1
-        num_envs_per_worker: 1
-        sgd_minibatch_size: 128
-        #num_sgd_iter: 5
-        #vf_loss_coeff: 0.0001
+        lr:
+            grid_search:
+            - 0.0005
+            - 1e-05
+            - 5e-05
+            - 1e-06
         env_config:
             include_cash_asset: true
             include_unobservable_market_state_information_for_evaluation: false
-            env_config_id: 36
+            env_config_id: 52
             force_dict_obs_space: true
-            force_single_simplex: true
         model:
             fcnet_hiddens: [512, 256, 128]
             vf_share_layers: true
-            custom_model: CostValueFunctionCustomModel
+            custom_model: TorchCustomAutoregressiveModelS3
             custom_model_config:
-                cost_vf_share_layers: true
-                cost_vf_use_gae: true
-                cost_vf_use_critic: true
-                init_kappa:
-                    grid_search:
-                    - 20.0
-                    - 50.0
-        lr:
-            grid_search:
-            - 1e-05
-            - 5e-06
+                fcnet_hiddens_autoreg_branches: [64]
+            custom_action_dist: TorchAutoregressiveDirichletDistributionS3
         batch_mode: complete_episodes
         evaluation_num_workers: 1
-        evaluation_interval: 5
+        evaluation_interval: 20
         custom_eval_function: custom_eval_function_lambda_penalty
         callbacks: EvaluationLoggerCallback
         evaluation_amount_episodes: 4000
-        evaluation_allow_backtesting: True
+        evaluation_allow_backtesting: true
     verbose: 1
     callbacks: [WandbLoggerCallback]

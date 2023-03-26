@@ -43,5 +43,6 @@ cartpole-ppo:
         custom_eval_function: custom_eval_function_lambda_penalty
         callbacks: EvaluationLoggerCallback
         evaluation_amount_episodes: 4000
+        evaluation_allow_backtesting: True
     verbose: 1
     callbacks: [WandbLoggerCallback]

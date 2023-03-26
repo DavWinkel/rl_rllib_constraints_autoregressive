@@ -8,7 +8,6 @@ cartpole-ppo:
         checkpoint_at_end: true
         checkpoint_frequency: 500
     config:
-        # Works for both torch and tf.
         framework: torch
         seed: 1010
         num_gpus: 0
@@ -16,12 +15,10 @@ cartpole-ppo:
         num_cpus_per_worker: 1
         num_envs_per_worker: 1
         sgd_minibatch_size: 128
-        #num_sgd_iter: 5
-        #vf_loss_coeff: 0.0001
         env_config:
             include_cash_asset: true
             include_unobservable_market_state_information_for_evaluation: false
-            env_config_id: 36
+            env_config_id: 52
             force_dict_obs_space: true
             force_single_simplex: true
         model:
@@ -46,6 +43,6 @@ cartpole-ppo:
         custom_eval_function: custom_eval_function_lambda_penalty
         callbacks: EvaluationLoggerCallback
         evaluation_amount_episodes: 4000
-        evaluation_allow_backtesting: True
+        evaluation_allow_backtesting: true
     verbose: 1
     callbacks: [WandbLoggerCallback]
