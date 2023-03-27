@@ -14,7 +14,7 @@ cartpole-ppo:
         env_config:
             include_cash_asset: true
             include_unobservable_market_state_information_for_evaluation: false
-            env_config_id: 36
+            env_config_id: 52
             force_single_simplex: true
             constraints_conditional_minkowski_encoding_type: S4
         model:
@@ -30,6 +30,6 @@ cartpole-ppo:
         custom_eval_function: custom_eval_function_lambda_penalty
         callbacks: EvaluationLoggerCallback
         evaluation_amount_episodes: 4000
-        evaluation_allow_backtesting: True
+        evaluation_allow_backtesting: true
     verbose: 1
     callbacks: [WandbLoggerCallback]

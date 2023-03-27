@@ -1,8 +1,8 @@
 cartpole-ppo:
     env: financial-markets-env-short-selling-v0
-    run: Baseline
+    run: RiskLagrangePPO
     stop:
-        timesteps_total: 5000000
+        timesteps_total: 8000000
     local_dir: ./.logging
     checkpoint_config:
         checkpoint_at_end: true
@@ -10,26 +10,36 @@ cartpole-ppo:
     config:
         framework: torch
         seed: 1010
-        lr: 1e-06
+        num_gpus: 0
+        num_workers: 1
+        num_cpus_per_worker: 1
+        num_envs_per_worker: 1
+        sgd_minibatch_size: 128
         env_config:
             include_cash_asset: true
             include_unobservable_market_state_information_for_evaluation: false
-            env_config_id: 36
+            env_config_id: 52
+            force_dict_obs_space: true
             force_single_simplex: true
-            constraints_conditional_minkowski_encoding_type: S4
         model:
             fcnet_hiddens: [512, 256, 128]
             vf_share_layers: true
-            custom_model: CustomBaselineModel
+            custom_model: RiskLambdaCustomModel
             custom_model_config:
-                fcnet_hiddens_autoreg_branches: [64]
-            custom_action_dist: TorchBaselinePolytopeDistribution
+                config_lambda_model:
+                    lambda_model_lr:
+                        grid_search:
+                        - 0.001
+                        - 0.0005
+                        - 0.0001
+                        - 5e-05
+        lr: 5e-06
         batch_mode: complete_episodes
         evaluation_num_workers: 1
         evaluation_interval: 20
         custom_eval_function: custom_eval_function_lambda_penalty
         callbacks: EvaluationLoggerCallback
         evaluation_amount_episodes: 4000
-        evaluation_allow_backtesting: True
+        evaluation_allow_backtesting: true
     verbose: 1
     callbacks: [WandbLoggerCallback]
